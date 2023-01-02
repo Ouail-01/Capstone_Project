@@ -144,3 +144,197 @@ body.active {
   font-weight: 600;
   height: 40px;
 }
+
+/* Creative Section */
+
+.creative {
+    height: auto;
+    background: #fff;
+    padding-bottom: 40px;
+  }
+  
+  .creative h1 {
+    padding-top: 40px;
+    width: 70%;
+    text-align: center;
+    font-weight: normal;
+    margin: auto;
+  }
+  
+  .creative hr {
+    height: 2px;
+    background: #ec5242;
+    width: 40px;
+    margin: 20px auto;
+    border-radius: 8px;
+    border: none;
+  }
+  
+  .creative p {
+    text-align: center;
+    margin: auto;
+    width: 75%;
+    font-weight: 300;
+  }
+  
+  .creative-logo {
+    margin: 40px auto 0px;
+    border: 1px solid #67798e;
+    width: 90%;
+    border-radius: 10px;
+  }
+  
+  .creative-logo img {
+    height: 100px;
+    width: 100px;
+  }
+  
+  .creative a {
+    display: flex;
+    text-decoration: none;
+    color: #272a31;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Summit section */
+  
+  .summit {
+    height: auto;
+    background: #fff;
+    padding-bottom: 40px;
+  }
+  
+  .summit h1 {
+    padding-top: 40px;
+    width: 70%;
+    text-align: center;
+    font-weight: normal;
+    margin: auto;
+  }
+  
+  .summit hr {
+    height: 2px;
+    background: #ec5242;
+    width: 40px;
+    margin: 20px auto;
+    border-radius: 8px;
+    border: none;
+  }
+  
+  .summit p {
+    text-align: center;
+    margin: auto;
+    width: 75%;
+    font-weight: 300;
+  }
+  
+  .summit-card {
+    position: relative;
+    width: 85%;
+    margin: 40px auto;
+  }
+  
+  .summit-card img {
+    height: 200px;
+    width: 100%;
+  }
+  
+  .summit .summit-text {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background: #cb2210c0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .summit .summit-text h3 {
+      font-size: 30px;
+      margin-bottom: 20px;
+  }
+  
+  .summit .summit-text h5 {
+      font-size: 15px;
+  }
+  
+  
+  /* Partner section  */
+  
+  .partners {
+      background: #34373e;
+    }
+    
+    .partners h1 {
+      color: #fff;
+      padding-top: 40px;
+      text-align: center;
+      font-weight: 500;
+    }
+    
+    .partners hr {
+      height: 2px;
+      background: #ec5242;
+      width: 40px;
+      margin: 10px auto;
+      border-radius: 8px;
+      border: none;
+      margin-bottom: 35px;
+    }
+    
+    .partner-icon {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 10px 15px;
+      padding-bottom: 40px;
+    }
+    
+    .partner-icon img{
+      width: 100px;
+    }
+    
+    /* Footer section */
+    
+    footer {
+      display: flex;
+      width: 100%;
+      height: 100px;
+      align-items: center;
+    }
+    
+    .footer-logo {
+      width: 50%;
+    }
+    
+    footer .footer-logo a{
+      display: flex;
+      text-decoration: none;
+      color: #d3d3d3; 
+      justify-content: center;
+    }
+    
+    footer img {
+      height: 50px;
+      width: 50px;
+    }
+    
+    footer h4 {
+      color: #000;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      width: 100px;
+    }
+    
+    footer p {
+      width: 50%;
+    }
+    
