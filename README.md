@@ -26,7 +26,8 @@
 
 ## Live Demo
 
-[Live Demo link ]()
+[Live Demo link ](https://ouail-01.github.io/Capstone_Project/)
+
 
 
 ## Getting Started
@@ -66,7 +67,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Thanks to Cindy Shin The Designer of the website (https://www.behance.net/adagio07)
+- Thanks to Cindy Shin The Designer of the website (https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 ## 📝 License
 
