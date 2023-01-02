@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+/* 
+    #272A31   black
+    #EC5242     orange
+    #D3D3D3    grey
+*/
+
+body {
+  background: #fff;
+  height: 98vh;
+  font-family: "Lato", sans-serif;
+  background-image: linear-gradient(0deg,rgba(211, 211, 211, 0.7), rgba(211, 211, 211, 0.1)), url(img/bg-img2.jpg);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+
+body.active {
+  overflow: hidden;
+}
+
+/* Header  */
+
+.burger div {
+  width: 25px;
+  height: 4px;
+  background: #272a31;
+  margin: 5px;
+  border-radius: 8px;
+}
+
+.burger {
+  cursor: pointer;
+  margin: 25px auto 0px 30px;
+}
+
+.burger.active {
+  position: relative;
+  z-index: 1;
+}
+
+.burger.active .line:nth-child(2) {
+  opacity: 0;
+}
+
+.burger.active .line:nth-child(1) {
+  transform: translateY(12px) rotate(45deg);
+  background-color: #67798e;
+}
+
+.burger.active .line:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+  background-color: #67798e;
+}
+
+#nav-menu {
+  list-style: none;
+  position: absolute;
+  background: #ec5342de;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  left: -100%;
+  top: 0;
+  transition: 0.5s ease;
+
+  border-radius: 0 0 100px 0;
+}
+
+#nav-menu.active {
+  left: 0;
+}
+
+.menu-content li {
+  font-size: 30px;
+
+  margin-bottom: 40px;
+}
+
+.menu-content ul li a {
+  text-decoration: none;
+  color: #272a31;
+}
+
