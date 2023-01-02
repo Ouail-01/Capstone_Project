@@ -138,3 +138,85 @@ body.active {
   width: 90%;
   margin: auto;
 }
+
+/* Program section */
+
+.program {
+  height: auto;
+  background-image: url(img/steel-gray-metal-minimalism-wallpaper-preview.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.program h1 {
+  color: #fff;
+  padding-top: 40px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.program hr {
+  height: 2px;
+  background: #ec5242;
+  width: 40px;
+  margin: 10px auto;
+  border-radius: 8px;
+  border: none;
+}
+
+.program-card {
+  display: flex;
+  align-items: center;
+  border: 1px solid #272a31;
+  width: 93%;
+  height: 105px;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(211, 211, 211, 0.25);
+  border-radius: 8px;
+}
+
+.program-card img {
+  height: 50px;
+  width: 50px;
+  margin-left: 15px;
+}
+
+.program-card h3 {
+  color: #ec5242;
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: 900;
+  width: 75px;
+}
+
+.program-card p {
+  font-size: 14.5px;
+  letter-spacing: 00.03em;
+  color: #fff;
+  margin-left: 15px;
+  width: 65%;
+}
+
+.program-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.program-button button {
+  width: 75%;
+  height: 80px;
+  background: #ec5242;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  border: none;
+  border-radius: 10px;
+}
+
+.program-button a {
+  text-decoration: none;
+  color: #d3d3d3;
+  font-size: 20px;
+}
