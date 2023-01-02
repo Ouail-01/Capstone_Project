@@ -14,7 +14,12 @@ body {
   background: #fff;
   height: 98vh;
   font-family: "Lato", sans-serif;
-  background-image: linear-gradient(0deg,rgba(211, 211, 211, 0.7), rgba(211, 211, 211, 0.1)), url(img/bg-img2.jpg);
+  background-image: linear-gradient(
+      0deg,
+      rgba(211, 211, 211, 0.7),
+      rgba(211, 211, 211, 0.1)
+    ),
+    url(img/bg-img2.jpg);
   background-position: left;
   background-repeat: no-repeat;
   background-size: auto 100%;
@@ -90,3 +95,46 @@ body.active {
   color: #272a31;
 }
 
+/* The headline section */
+.headline {
+  height: 82vh;
+}
+
+.intro h1 {
+  margin-top: 90px;
+  margin-left: 25px;
+  color: #ec5242;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.intro h2 {
+  margin: 15px 25px;
+  font-size: 30px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  background-image: url("img/bg-img.jpeg");
+  background-size: 100%;
+  background-attachment: fixed;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #f9452e;
+}
+
+.intro p {
+  margin: 20px auto;
+  padding: 20px;
+  width: 77%;
+  color: #272a31;
+  background: rgba(211, 211, 211, 0.7);
+  border: 1px solid #fff;
+  letter-spacing: 0.03em;
+  text-align: center;
+  border-radius: 18px;
+}
+.date {
+  color: #272a31;
+  width: 90%;
+  margin: auto;
+}
