@@ -776,6 +776,46 @@ body.active {
       margin-right: 35px;
       width: 130px;
   }
+
+/* Footer section */
+
+.footer-pr {
+    display: flex;
+    width: 80%;
+    height: 100px;
+    align-items: center;
+    margin: auto;
+  }
+  
+  .footer-logo {
+    width: 50%;
+  }
+  
+  .footer .footer-logo a {
+    display: flex;
+    text-decoration: none;
+    color: #d3d3d3;
+    justify-content: center;
+  }
+  
+  .footer img {
+    height: 70px;
+    width: 70px;
+  }
+  
+  .footer h4 {
+    color: #000;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    width: 100px;
+  }
+  
+  .footer p {
+    width: 50%;
+    letter-spacing: 0.05em;
+  }
+  
   
 
 
