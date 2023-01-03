@@ -7,23 +7,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Capstone Project</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
+    <!-- Second nav for Desktop -->
+
+    <div class="second-nav mobile-none">
+        <ul>
+            <li><a href="#" class="fa fa-twitter"></a></li>
+            <li><a href="#" class="fa fa-facebook"></a></li>
+            <li><a href="#">English</a></li>
+            <li><a href="#">My Page</a></li>
+            <li><a href="#">Logout</a></li>
+        </ul>
+    </div>
 
     <!-- Header -->
     <header>
         <div class="menu-content">
-            <div class="burger">
+            <div class="burger desktop-none">
                 <div class="line"></div>
                 <div class="line"></div>
                 <div class="line"></div>
             </div>
 
+            <div class="nav-logo mobile-none">
+                <a href="#">
+                    <img src="img/logo2.png" alt="Academy_Logo">
+                    <h4>Football <br> Academy!</h4>
+                </a>
+            </div>
             <ul id="nav-menu">
+
                 <li>
                     <a class="nav-link" href="about.html">About</a>
                 </li>
@@ -39,7 +55,13 @@
                 <li>
                     <a class="nav-link" href="#">News</a>
                 </li>
+
             </ul>
+            <div class="nav-button mobile-none">
+                <a class="nav-link" href="#">
+                    <button>CC Campaign</button>
+                </a>
+            </div>
         </div>
     </header>
 
@@ -48,7 +70,7 @@
         <div id="bg-img"></div>
         <div class="intro">
             <h1>"Hello! This is a soccer academy"</h1>
-            <h2>The international soccer academy in Morocco.</h2>
+            <h2>The international soccer academy in Morocco. <br>2023</h2>
             <p>“We are an international soccer academy in Morocco with UEFA Pro licensed coaches
                 and players from all over the world.
                 We find you professional clubs to train as a trial in Morocco.
@@ -67,34 +89,36 @@
         <hr>
         <div class="program-elem">
             <div class="program-card">
-                <img src="img/foot-icon.png" alt="">
+                <img src="img/foot-icon.png" alt="Academy_Program">
                 <h3>Soccer</h3>
                 <p>Fully residential intensive football camps with daily training sessions designed to help players
                     develop their skills and techniques.</p>
             </div>
             <div class="program-card">
-                <img src="img/study-icon.png" alt="">
+                <img src="img/study-icon.png" alt="Academy_Program">
                 <h3>Study</h3>
                 <p>Combine full-time studying and football matches whilst gaining academic qualifications.</p>
             </div>
             <div class="program-card">
-                <img src="img/support-icon.png" alt="">
+                <img src="img/support-icon.png" alt="Academy_Program">
                 <h3>Support</h3>
                 <p>We have on hand qualified experts ready to provide you with the specialized legal device.</p>
             </div>
             <div class="program-card">
-                <img src="img/career-icon.webp" alt="">
-                <h3>Manage- ment</h3>
+                <img src="img/career-icon.webp" alt="Academy_Program">
+                <h3 class="mobile-none">Management</h3>
+                <h3 class="desktop-none">Manage-ment</h3>
                 <p>Throughout your career, we will provide you with structure and support you with all decisions.</p>
             </div>
             <div class="program-card">
-                <img src="img/networking.png" alt="">
+                <img src="img/networking.png" alt="Academy_Program">
                 <h3>CC Ignite</h3>
                 <p>Get opportunities to network with our players around the world, also after the summit. </p>
             </div>
-            <div class="program-button">
-                <button><a href="#">Join Our Academy 2023</a></button>
-            </div>
+
+        </div>
+        <div class="program-button">
+            <button><a href="#">Join Our Academy 2023</a></button>
         </div>
     </section>
 
@@ -103,86 +127,89 @@
     <section class="featured-staff">
         <h1>Our Staff</h1>
         <hr>
-        <div class="staff-card">
-            <div class="staf-img">
-                <img src="img/Florentino_perez.jpg" alt="">
+        <div class="featured-elem">
+            <div class="staff-card">
+                <div class="staf-img">
+                    <img src="img/Florentino_perez.jpg" alt="Academy_Staff">
+                </div>
+                <div class="staff-intro">
+                    <h3>Florentino Pérez</h3>
+                    <h4>Director</h5>
+                        <hr>
+                        <p>75 years old <br>Spanish businessman, civil engineer, former politician, and the current
+                            president of Real Madrid as well as Chairman and CEO.</p>
+                </div>
             </div>
-            <div class="staff-intro">
-                <h3>Florentino Pérez</h3>
-                <h4>Director</h5>
-                    <hr>
-                    <p>75 years old <br>Spanish businessman, civil engineer, former politician, and the current
-                        president of Real Madrid as well as Chairman and CEO.</p>
-            </div>
-        </div>
 
 
-        <div class="staff-card">
-            <div class="staf-img">
-                <img src="img/jose-mourinho-1.jpeg" alt="">
+            <div class="staff-card">
+                <div class="staf-img">
+                    <img src="img/jose-mourinho-1.jpeg" alt="Academy_Staff">
+                </div>
+                <div class="staff-intro">
+                    <h3>José Mourinho</h3>
+                    <h4>Coach</h5>
+                        <hr>
+                        <p>59 years old <br>Once dubbed "The Special One" by the British media,
+                            Mourinho is widely considered to be among the greatest.</p>
+                </div>
             </div>
-            <div class="staff-intro">
-                <h3>José Mourinho</h3>
-                <h4>Coach</h5>
-                    <hr>
-                    <p>59 years old <br>Once dubbed "The Special One" by the British media,
-                        Mourinho is widely considered to be among the greatest.</p>
-            </div>
-        </div>
 
 
-        <div class="staff-card">
-            <div class="staf-img">
-                <img src="img/pep-guardiola.jpeg" alt="">
+            <div class="staff-card">
+                <div class="staf-img">
+                    <img src="img/pep-guardiola.jpeg" alt="Academy_Staff">
+                </div>
+                <div class="staff-intro">
+                    <h3>Pep Guardiola</h3>
+                    <h4>Assistant Coach</h5>
+                        <hr>
+                        <p>51 years old <br>Spanish professional football manager and former player, who is the current
+                            manager of Premier League club Manchester City.</p>
+                </div>
             </div>
-            <div class="staff-intro">
-                <h3>Pep Guardiola</h3>
-                <h4>Assistant Coach</h5>
-                    <hr>
-                    <p>51 years old <br>Spanish professional football manager and former player, who is the current
-                        manager of Premier League club Manchester City.</p>
-            </div>
-        </div>
 
 
-        <div class="staff-card">
-            <div class="staf-img">
-                <img src="img/Zinedine_Zidane.jpeg" alt="">
+            <div class="staff-card">
+                <div class="staf-img">
+                    <img src="img/Zinedine_Zidane.jpeg" alt="Academy_Staff">
+                </div>
+                <div class="staff-intro">
+                    <h3>Zinedine Zidane</h3>
+                    <h4>Assistant Coach</h5>
+                        <hr>
+                        <p>50 years old <br>French professional football manager and former player who played as an
+                            attacking midfielder.</p>
+                </div>
             </div>
-            <div class="staff-intro">
-                <h3>Zinedine Zidane</h3>
-                <h4>Assistant Coach</h5>
-                    <hr>
-                    <p>50 years old <br>French professional football manager and former player who played as an
-                        attacking midfielder.</p>
-            </div>
-        </div>
 
 
-        <div class="staff-card">
-            <div class="staf-img">
-                <img src="img/gregorgy-dupont.jpeg" alt="">
+            <div class="staff-card">
+                <div class="staf-img">
+                    <img src="img/gregorgy-dupont.jpeg" alt="Academy_Staff">
+                </div>
+                <div class="staff-intro">
+                    <h3>Grégory Dupont</h3>
+                    <h4>Fitness Coach</h5>
+                        <hr>
+                        <p>50 years old <br>Sports physical trainer, he is known as the scientist since he usually plans
+                            his
+                            workouts based on scientific research.</p>
+                </div>
             </div>
-            <div class="staff-intro">
-                <h3>Grégory Dupont</h3>
-                <h4>Fitness Coach</h5>
-                    <hr>
-                    <p>50 years old <br>Sports physical trainer, he is known as the scientist since he usually plans his
-                        workouts based on scientific research.</p>
-            </div>
-        </div>
 
 
-        <div class="staff-card">
-            <div class="staf-img">
-                <img src="img/antonio-pintus.jpg" alt="">
-            </div>
-            <div class="staff-intro">
-                <h3>Anthony Pintus</h3>
-                <h4>Athletic Coach</h5>
-                    <hr>
-                    <p>59 years old <br>Italien physical trainer, known as "the sergeant" for the harshness of his
-                        methods,</p>
+            <div class="staff-card">
+                <div class="staf-img">
+                    <img src="img/antonio-pintus.jpg" alt="Academy_Staff">
+                </div>
+                <div class="staff-intro">
+                    <h3>Anthony Pintus</h3>
+                    <h4>Athletic Coach</h5>
+                        <hr>
+                        <p>59 years old <br>Italien physical trainer, known as "the sergeant" for the harshness of his
+                            methods,</p>
+                </div>
             </div>
         </div>
     </section>
@@ -193,25 +220,27 @@
         <h1>Partner</h1>
         <hr>
         <div class="partner-icon">
-            <img src="img/mozilla-part.png" alt="">
-            <img src="img/google-part.png" alt="">
-            <img src="img/NAVER-part.png" alt="">
-            <img src="img/daumkakao-part.png" alt="">
-            <img src="img/airbnb-partn.png" alt="">
+            <img src="img/mozilla-part.png" alt="Academy_Partners">
+            <img src="img/google-part.png" alt="Academy_Partners">
+            <img src="img/NAVER-part.png" alt="Academy_Partners">
+            <img src="img/daumkakao-part.png" alt="Academy_Partners">
+            <img src="img/airbnb-partn.png" alt="Academy_Partners">
         </div>
     </section>
 
     <!-- Footer section -->
 
-    <footer class="footer">
+    <footer class="footer-pr">
+        <div class="footer">
         <div class="footer-logo">
             <a href="#">
-                <img src="img/logo2.png" alt="">
+                <img src="img/logo2.png" alt="Academy_Logo">
                 <h4>Football Academy!</h4>
             </a>
 
         </div>
         <p>@Laarabi | Some Right Reserved | 2023</p>
+        </div>
     </footer>
 
 

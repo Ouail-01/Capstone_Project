@@ -6,42 +6,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Capstone Project</title>
     <link rel="stylesheet" href="about.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
-    <!-- Header section -->
+    <!-- Second nav for Desktop -->
 
+    <div class="second-nav mobile-none">
+        <ul>
+            <li><a href="#" class="fa fa-twitter"></a></li>
+            <li><a href="#" class="fa fa-facebook"></a></li>
+            <li><a href="#">English</a></li>
+            <li><a href="#">My Page</a></li>
+            <li><a href="#">Logout</a></li>
+        </ul>
+    </div>
+
+    <!-- Header section -->
     <header>
         <div class="menu-content">
-            <div class="burger">
+            <div class="burger desktop-none">
                 <div class="line"></div>
                 <div class="line"></div>
                 <div class="line"></div>
             </div>
 
+            <div class="nav-logo mobile-none">
+                <a href="#">
+                    <img src="img/logo2.png" alt="Academy_Logo">
+                    <h4>Football <br> Academy!</h4>
+                </a>
+            </div>
             <ul id="nav-menu">
+
                 <li>
                     <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="about.html">About</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="index.html">Program</a>
+                    <a class="nav-link" href="#">Program</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="index.html">Join</a>
+                    <a class="nav-link" href="#">Join</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="index.html">Sponsor</a>
+                    <a class="nav-link" href="#">Sponsor</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="index.html">News</a>
+                    <a class="nav-link" href="#">News</a>
                 </li>
+
             </ul>
+            <div class="nav-button mobile-none">
+                <a class="nav-link" href="#">
+                    <button>CC Campaign</button>
+                </a>
+            </div>
         </div>
     </header>
 
@@ -71,7 +93,7 @@
         <p>The logo of CC Global Summit 2022 was decided through the logo competition from 8. June to 7. July.</p>
         <div class="creative-logo">
             <a href="#">
-                <img src="img/logo2.png" alt="">
+                <img src="img/logo2.png" alt="Academy_Logo">
                 <div>
                     <h2>Football <br> Academy!</h2>
                     <h6>14th - 17th oct 2022 | Morocco</h6>
@@ -89,19 +111,21 @@
         <h1>See the past Global Summits</h1>
         <hr>
         <p>Take a look to the last two trophies summits which took place in Buenos Aires and in Warsaw.</p>
-        <div class="summit-card">
-            <img src="img/trophy.jpeg" alt="">
-            <div class="summit-text">
-                <h3>2022</h3>
-                <h5>CC Trophy Summit 2022 in Buenos Aires</h5>
+        <div class="summit-elem">
+            <div class="summit-card">
+                <img src="img/trophy.jpeg" alt="Academy_Trophy">
+                <div class="summit-text">
+                    <h3>2022</h3>
+                    <h5>CC Trophy Summit 2022 in Buenos Aires</h5>
+                </div>
             </div>
-        </div>
-
-        <div class="summit-card">
-            <img src="img/trophy-celeb.jpeg" alt="">
-            <div class="summit-text">
-                <h3>2023</h3>
-                <h5>CC Trophy Summit 2023 in Warsaw</h5>
+    
+            <div class="summit-card">
+                <img src="img/trophy-celeb.jpeg" alt="Academy_Celebration">
+                <div class="summit-text">
+                    <h3>2023</h3>
+                    <h5>CC Trophy Summit 2023 in Warsaw</h5>
+                </div>
             </div>
         </div>
     </section>
@@ -113,11 +137,11 @@
         <h1>Partner</h1>
         <hr>
         <div class="partner-icon">
-            <img src="img/mozilla-part.png" alt="">
-            <img src="img/google-part.png" alt="">
-            <img src="img/NAVER-part.png" alt="">
-            <img src="img/daumkakao-part.png" alt="">
-            <img src="img/airbnb-partn.png" alt="">
+            <img src="img/mozilla-part.png" alt="Academy_Partners">
+            <img src="img/google-part.png" alt="Academy_Partners">
+            <img src="img/NAVER-part.png" alt="Academy_Partners">
+            <img src="img/daumkakao-part.png" alt="Academy_Partners">
+            <img src="img/airbnb-partn.png" alt="Academy_Partners">
         </div>
     </section>
 
@@ -126,7 +150,7 @@
     <footer class="footer">
         <div class="footer-logo">
             <a href="#">
-              <img src="img/logo2.png" alt="">
+              <img src="img/logo2.png" alt="Academy_Logo">
               <h4>Football Academy!</h4>
             </a>
       
