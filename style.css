@@ -659,7 +659,85 @@ body.active {
     text-transform: uppercase;
     border-bottom: 1px solid #d3d3d3;
   }
+
+
+/* Featured speakers section */
   
+
+.featured-staff {
+    background: #fff;
+    width: 80%;
+    margin: auto;
+  }
+  
+  .featured-staff h1 {
+    padding-top: 40px;
+    text-align: center;
+    font-weight: 500;
+  }
+  
+  .featured-staff hr {
+    height: 2px;
+    background: #ec5242;
+    width: 40px;
+    margin: 10px auto;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 45px;
+  }
+
+  .featured-elem {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 35px;
+  }
+  
+  .staff-card {
+    width: 90%;
+    height: auto;
+    display: flex;
+    margin-left: 0px;
+    margin-right: auto;
+    margin-bottom: 50px;
+  }
+  
+  .staff-card img {
+    height: 130px;
+    width: 130px;
+    background-image: url(img/img-bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: 80px;
+    padding-top: 13px;
+    padding-left: 13px;
+  }
+  
+  .staff-intro {
+    margin-left: 25px;
+  }
+  
+  .staff-intro h3 {
+    margin-top: 10px;
+  }
+  .staff-intro h4 {
+    color: #ec5242;
+    margin-top: 7px;
+  }
+  
+  .staff-intro hr {
+    height: 2px;
+    background: #67798e;
+    width: 30px;
+    margin-left: 0;
+    border-radius: 8px;
+    border: none;
+    margin-top: 12px;
+    margin-bottom: 13px;
+  }
+  
+  .staff-intro p {
+    color: #272a31;
+    font-size: 13px;
+  }
 
 
 
@@ -675,86 +753,71 @@ body.active {
 
 
 
-.program {
-  height: auto;
-  background-image: url(img/steel-gray-metal-minimalism-wallpaper-preview.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
 
-.program h1 {
-  color: #fff;
-  padding-top: 40px;
-  text-align: center;
-  font-weight: 500;
-}
-
-.program hr {
-  height: 2px;
-  background: #ec5242;
-  width: 40px;
-  margin: 10px auto;
-  border-radius: 8px;
-  border: none;
-}
-
-.program-card {
-  display: flex;
-  align-items: center;
-  border: 1px solid #272a31;
-  width: 93%;
-  height: 105px;
-  margin-top: 25px;
-  margin-left: auto;
-  margin-right: auto;
-  background: rgba(211, 211, 211, 0.25);
-  border-radius: 8px;
-}
-
-.program-card img {
-  height: 50px;
-  width: 50px;
-  margin-left: 15px;
-}
-
-.program-card h3 {
-  color: #ec5242;
-  margin-left: 10px;
-  font-size: 16px;
-  font-weight: 900;
-  width: 75px;
-}
-
-.program-card p {
-  font-size: 14.5px;
-  letter-spacing: 00.03em;
-  color: #fff;
-  margin-left: 15px;
-  width: 65%;
-}
-
-.program-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.program-button button {
-  width: 75%;
-  height: 80px;
-  background: #ec5242;
-  margin-top: 45px;
-  margin-bottom: 45px;
-  border: none;
-  border-radius: 10px;
-}
-
-.program-button button a {
-  text-decoration: none;
-  color: #d3d3d3;
-  font-size: 20px;
-}
-
+.featured-staff {
+    background: #fff;
+  }
+  
+  .featured-staff h1 {
+    padding-top: 40px;
+    text-align: center;
+    font-weight: 500;
+  }
+  
+  .featured-staff hr {
+    height: 2px;
+    background: #ec5242;
+    width: 40px;
+    margin: 10px auto;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 45px;
+  }
+  
+  .staff-card {
+    width: 95%;
+    height: auto;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+  }
+  
+  .staff-card img {
+    height: 130px;
+    width: 130px;
+    background-image: url(img/img-bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: 80px;
+    padding-top: 13px;
+    padding-left: 13px;
+  }
+  
+  .staff-intro {
+    margin-left: 25px;
+  }
+  
+  .staff-intro h4 {
+    color: #ec5242;
+    margin-top: 7px;
+  }
+  
+  .staff-intro hr {
+    height: 2px;
+    background: #67798e;
+    width: 30px;
+    margin-left: 0;
+    border-radius: 8px;
+    border: none;
+    margin-top: 12px;
+    margin-bottom: 13px;
+  }
+  
+  .staff-intro p {
+    color: #272a31;
+    font-size: 13px;
+  }
+  
 
 
 
