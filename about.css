@@ -12,10 +12,10 @@
 */
 
 body {
-  background: #ebebeb;
+  background: url(img/about-bg.png);
   height: 98vh;
   font-family: "Lato", sans-serif;
-  background-position: left;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: auto 100%;
   line-height: 1.5em;
@@ -342,25 +342,19 @@ body.active {
   width: 50%;
 }
 
-
 /* Desktop version */
 
 @media only screen and (min-width: 768px) {
-  
+
   body {
-    background: #fff;
-    height: 98vh;
-    font-family: "Lato", sans-serif;
-    background-image: linear-gradient(
-        0deg,
-        rgba(211, 211, 211, 0.7),
-        rgba(211, 211, 211, 0.1)
-      ),
-      url(img/bg-img2.jpg);
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-  }
+  background: url(img/about-bg.png);
+  height: 98vh;
+  font-family: "Lato", sans-serif;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  line-height: 1.5em;
+}
 
   .desktop-none {
     display: none;
@@ -471,6 +465,68 @@ body.active {
     background: transparent;
     color: #ec5242;
   }
+
+/* The headline section */
+
+.headline {
+  height: auto;
+  padding-bottom: 50px;
+}
+
+.intro h1 {
+  margin-top: 110px;
+  margin-bottom: 15px;
+  color: #ec5242;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.intro h2 {
+  font-size: 50px;
+  text-transform: uppercase;
+  color: #f9452e;
+  text-align: center;
+  margin: auto;
+  width: 60%;
+  height: auto;
+  line-height: 40px;
+}
+
+.intro p {
+  margin: 30px auto 30px;
+  padding: 20px;
+  width: 60%;
+  color: #272a31;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid #fff;
+  letter-spacing: 0.05em;
+  text-align: center;
+  border-radius: 18px;
+  font-size: 22px;
+}
+
+.date {
+  color: #272a31;
+  width: 80%;
+  margin: 40px auto;
+}
+
+.intro .date h5 {
+  font-weight: 600;
+  text-align: center;
+}
+
+.intro a {
+  color: #000;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  margin-top: 2px;
+  font-weight: 600;
+  height: 40px;
+}
+
 
 
 }
