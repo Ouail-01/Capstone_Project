@@ -25,6 +25,10 @@ body.active {
   overflow: hidden;
 }
 
+.mobile-none {
+  display: none;
+}
+
 /* Header  */
 
 .burger div {
@@ -336,4 +340,137 @@ body.active {
 
 .footer p {
   width: 50%;
+}
+
+
+/* Desktop version */
+
+@media only screen and (min-width: 768px) {
+  
+  body {
+    background: #fff;
+    height: 98vh;
+    font-family: "Lato", sans-serif;
+    background-image: linear-gradient(
+        0deg,
+        rgba(211, 211, 211, 0.7),
+        rgba(211, 211, 211, 0.1)
+      ),
+      url(img/bg-img2.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .desktop-none {
+    display: none;
+  }
+
+  /* Second nav */
+
+  .second-nav {
+    background: #34373e;
+    display: flex;
+    height: 25px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .second-nav ul {
+    display: flex;
+    width: 80%;
+    height: 100%;
+    justify-content: right;
+  }
+
+  .second-nav li {
+    margin-left: 25px;
+    list-style: none;
+  }
+
+  .second-nav a {
+    text-decoration: none;
+    color: #d3d3d3;
+  }
+
+  /* Header section */
+
+  header {
+    background: #fff;
+    width: 100%;
+  }
+
+  .menu-content {
+    width: 80%;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #nav-menu {
+    list-style: none;
+    position: relative;
+    background: none;
+    height: 65px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    left: 0%;
+    top: 0;
+    transition: none;
+    border-radius: 0 0 0 0;
+  }
+
+  .menu-content li {
+    font-size: 17px;
+    margin-bottom: 0;
+    margin-right: 50px;
+    font-weight: 300;
+  }
+
+  .menu-content a {
+    text-decoration: none;
+    color: #272a31;
+  }
+
+  .menu-content .nav-logo {
+    display: flex;
+    justify-content: left;
+  }
+
+  .menu-content .nav-logo a {
+    display: flex;
+  }
+
+  .menu-content .nav-logo img {
+    height: 50px;
+  }
+
+  .menu-content .nav-logo h4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .menu-content .nav-button {
+    display: flex;
+  }
+
+  .nav-button a {
+    width: 100px;
+  }
+
+  .nav-button button {
+    border: 5px solid #ec5242;
+    width: 100px;
+    height: 40px;
+    background: transparent;
+    color: #ec5242;
+  }
+
+
 }
