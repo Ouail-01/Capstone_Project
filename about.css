@@ -527,6 +527,38 @@ body.active {
   height: 40px;
 }
 
+/* Creative Section */
+
+.creative {
+  height: auto;
+  background: #fff;
+  padding-bottom: 40px;
+}
+
+.creative h1 {
+  padding-top: 40px;
+  width: 70%;
+  text-align: center;
+  font-weight: normal;
+  margin: auto;
+}
+
+.creative hr {
+  height: 2px;
+  background: #ec5242;
+  width: 40px;
+  margin: 20px auto;
+  border-radius: 8px;
+  border: none;
+}
+
+.creative-logo img {
+  height: 120px;
+  width: 120px;
+}
+
+
+
 
 
 }
