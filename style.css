@@ -452,6 +452,10 @@ body.active {
     color: #272a31;
   }
 
+  .menu-content a:hover {
+    color: #ec5242;
+  }
+
   .menu-content .nav-logo {
     display: flex;
     justify-content: left;
@@ -477,6 +481,8 @@ body.active {
 
   .nav-button a {
     width: 100px;
+    color: #ec5242;
+    text-decoration: none;
   }
 
   .nav-button button {
@@ -485,6 +491,16 @@ body.active {
     height: 40px;
     background: transparent;
     color: #ec5242;
+    cursor: pointer;
+  }
+
+  .nav-button button:hover {
+    border: 5px solid #fff;
+    width: 100px;
+    height: 40px;
+    background: #ec5242;
+    color: #fff;
+    transition: 00.5s ease;
   }
 
   /* The headline section */
@@ -593,6 +609,12 @@ body.active {
     background: rgba(211, 211, 211, 0.25);
     border-radius: 8px;
   }
+
+  .program-card:hover {
+    width: 20%;
+    transform: scalex(1.2);
+    transition: 1s ease;
+  }
   
   .program-card img {
     height: 70px;
@@ -652,6 +674,12 @@ body.active {
     font-size: 20px;
     text-transform: uppercase;
     border-bottom: 1px solid #d3d3d3;
+  }
+
+  .program-button button a:hover {
+    color: #ec5242;
+    border-bottom: 1px solid #ec5242;
+    transition: 00.5s ease;
   }
 
 

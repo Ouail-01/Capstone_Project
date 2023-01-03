@@ -424,6 +424,10 @@ body.active {
     text-decoration: none;
     color: #272a31;
   }
+  .menu-content a:hover {
+    color: #ec5242;
+    transition: 00.5s ease;
+  }
 
   .menu-content .nav-logo {
     display: flex;
@@ -450,6 +454,8 @@ body.active {
 
   .nav-button a {
     width: 100px;
+    color: #ec5242;
+    text-decoration: none;
   }
 
   .nav-button button {
@@ -458,6 +464,16 @@ body.active {
     height: 40px;
     background: transparent;
     color: #ec5242;
+    cursor: pointer;
+  }
+
+  .nav-button button:hover {
+    border: 5px solid #fff;
+    width: 100px;
+    height: 40px;
+    background: #ec5242;
+    color: #fff;
+    transition: 00.5s ease;
   }
 
 /* The headline section */
@@ -620,6 +636,11 @@ body.active {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.summit .summit-text:hover {
+  color: #d3d3d3;
+  background: #cb23107c;
+  transition: 1s ease;
 }
 
 .summit .summit-text h3 {
