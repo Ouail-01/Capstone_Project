@@ -564,6 +564,80 @@ body.active {
   width: 120px;
 }
 
+/* Summit section */
+
+.summit {
+  height: auto;
+  background: #fff;
+  padding-bottom: 40px;
+}
+
+.summit h1 {
+  padding-top: 40px;
+  width: 70%;
+  text-align: center;
+  font-weight: normal;
+  margin: auto;
+}
+
+.summit hr {
+  height: 2px;
+  background: #ec5242;
+  width: 40px;
+  margin: 20px auto;
+  border-radius: 8px;
+  border: none;
+}
+
+.summit p {
+  text-align: center;
+  margin: auto;
+  width: 75%;
+  font-weight: 300;
+}
+
+.summit-elem {
+  width: 65%;
+  display: flex;
+  margin: auto;
+}
+
+.summit-card {
+  position: relative;
+  width: 49%;
+  margin: 40px auto;
+}
+
+.summit-card img {
+  height: 200px;
+  width: 100%;
+}
+
+.summit .summit-text {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background: #cb2210c0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.summit .summit-text h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.summit .summit-text h5 {
+  font-size: 15px;
+}
+
+
 
 
 
