@@ -5,12 +5,6 @@
   margin: 0;
 }
 
-/*
-    #272A31   black
-    #EC5242     orange
-    #D3D3D3    grey
-*/
-
 body {
   background: #fff;
   height: 98vh;
@@ -739,7 +733,6 @@ body.active {
     font-size: 13px;
   }
 
-
 /* Partner section  */
 
 .partners {
@@ -825,47 +818,3 @@ body.active {
 
 
 }
-
-/* 
-
-
-
-
-
-
-
-.partners {
-    background: #34373e;
-  }
-  
-  .partners h1 {
-    color: #fff;
-    padding-top: 40px;
-    text-align: center;
-    font-weight: 500;
-  }
-  
-  .partners hr {
-    height: 2px;
-    background: #ec5242;
-    width: 40px;
-    margin: 10px auto;
-    border-radius: 8px;
-    border: none;
-    margin-bottom: 35px;
-  }
-  
-  .partner-icon {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 10px 15px;
-    padding-bottom: 40px;
-  }
-  
-
-
-
-
-*/

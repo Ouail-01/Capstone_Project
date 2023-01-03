@@ -5,12 +5,6 @@
   margin: 0;
 }
 
-/*
-    #272A31   black
-    #EC5242     orange
-    #D3D3D3    grey
-*/
-
 body {
   background: url(img/about-bg.png);
   height: 98vh;
@@ -636,6 +630,83 @@ body.active {
 .summit .summit-text h5 {
   font-size: 15px;
 }
+
+/* Partner section  */
+
+.partners {
+    background: #34373e;
+  }
+  
+  .partners h1 {
+    color: #fff;
+    padding-top: 30px;
+    text-align: center;
+    font-weight: 500;
+  }
+  
+  .partners hr {
+    height: 2px;
+    background: #ec5242;
+    width: 40px;
+    margin: 10px auto;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 15px;
+  }
+  
+  .partner-icon {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px 15px;
+    padding-bottom: 40px;
+  }
+
+  .partner-icon img {
+      margin-right: 35px;
+      width: 100px;
+  }
+
+/* Footer section */
+
+.footer-pr {
+    display: flex;
+    width: 80%;
+    height: 100px;
+    align-items: center;
+    margin: auto;
+  }
+  
+  .footer-logo {
+    width: 50%;
+  }
+  
+  .footer .footer-logo a {
+    display: flex;
+    text-decoration: none;
+    color: #d3d3d3;
+    justify-content: center;
+  }
+  
+  .footer img {
+    height: 70px;
+    width: 70px;
+  }
+  
+  .footer h4 {
+    color: #000;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    width: 100px;
+  }
+  
+  .footer p {
+    width: 50%;
+    letter-spacing: 0.05em;
+  }
+  
 
 
 
