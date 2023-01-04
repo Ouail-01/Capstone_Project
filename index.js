@@ -64,3 +64,17 @@ const speakers = [
     speakerImage: 'img/antonio-pintus.jpg',
   },
 ];
+
+for (let i = 0; i < speakers.length; i += 1) {
+  document.querySelector('.featured-elem').innerHTML += `<div class="staff-card">
+  <div class="staf-img">
+      <img src="${speakers[i].speakerImage}" alt="Academy_Staff">
+  </div>
+  <div class="staff-intro">
+      <h3>${speakers[i].name}</h3>
+      <h4>${speakers[i].academyWork}</h5>
+          <hr>
+          <p>${speakers[i].description}</p>
+  </div>
+</div>`;
+}
