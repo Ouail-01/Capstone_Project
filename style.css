@@ -18,7 +18,7 @@ body {
     url(img/bg-img2.jpg);
   background-position: left;
   background-repeat: no-repeat;
-  background-size: auto 100%;
+  background-size: 100% 100%;
 }
 
 body.active {
@@ -26,6 +26,10 @@ body.active {
 }
 
 .mobile-none {
+  display: none;
+}
+
+.mobile-no {
   display: none;
 }
 
@@ -96,7 +100,8 @@ body.active {
 /* The headline section */
 
 .headline {
-  height: 82vh;
+  min-height: 75vh;
+  padding-bottom: 50px;
 }
 
 .intro h1 {
@@ -225,6 +230,7 @@ body.active {
 
 .featured-staff {
   background: #fff;
+  padding-bottom: 50px;
 }
 
 .featured-staff h1 {
@@ -494,7 +500,8 @@ body.active {
   /* The headline section */
 
   .headline {
-    height: 72vh;
+    min-height: 66vh;
+    padding-bottom: 50px;
   }
 
   .intro {
@@ -604,7 +611,7 @@ body.active {
     margin-left: 0;
   }
 
-  .mobile-none {
+  .mobile-no {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -739,6 +746,7 @@ body.active {
 
   .partners {
     background: #34373e;
+    display: block;
   }
 
   .partners h1 {

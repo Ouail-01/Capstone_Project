@@ -24,6 +24,9 @@
 - CSS3
 - JavaScript
 
+> Here's a [video](https://www.loom.com/share/a5ce19b7045d45f4bf398c8b9bb6b8a5) of me giving a few description of the project.
+
+
 ## Live Demo
 
 [Live Demo link ](https://ouail-01.github.io/Capstone_Project/)
@@ -71,4 +74,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT]() licensed.
+This project is [MIT](LICENSE) licensed.
